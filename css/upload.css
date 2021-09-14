@@ -1,0 +1,43 @@
+.upload {
+    margin-bottom: 20px;
+}
+
+.upload div {
+    margin-top: 20px;
+}
+
+.upload div span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #5fafac;
+}
+
+.upload div input {
+    height: 38px;
+    width: 200px;
+    outline: none;
+    line-height: 38px;
+    border: 1px solid #5fafac;
+    padding-left: 10px;
+}
+
+.upload .file {
+    border: none;
+}
+
+.upload textarea {
+    resize: none;
+    width: 800px;
+    height: 100px;
+}
+
+.upload .submit {
+    background-color: #5fafac;
+    color: #fff;
+    font-size: 18px;
+}

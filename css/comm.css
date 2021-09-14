@@ -1,0 +1,249 @@
+body {
+    background: url(../img/bj.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+/*logo搜索框 */
+
+.top {
+    height: 150px;
+    width: 100%;
+}
+
+.nav {
+    position: relative;
+    height: 100%;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.logo a {
+    display: block;
+    height: 150px;
+    width: 150px;
+    background: url(../img/logo.png) no-repeat;
+    font-size: 0;
+    background-size: 100%;
+}
+
+.biaoti {
+    position: absolute;
+    top: 50%;
+    left: 180px;
+    height: 32px;
+}
+
+.biaoti h2 {
+    line-height: 32px;
+    font-size: 50px;
+    font-family: 'FZShuTi';
+}
+
+.search {
+    position: absolute;
+    top: 50%;
+    left: 400px;
+    height: 32px;
+}
+
+.text {
+    height: 32px;
+    width: 340px;
+    outline: none;
+    border: 2px solid #5fafac;
+    padding-left: 10px;
+    color: #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.btn {
+    width: 82px;
+    height: 36px;
+    background-color: #5fafac;
+    margin-left: -6px;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    vertical-align: -2px;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    right: 70px;
+}
+
+.login li {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+}
+
+.login a {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+}
+
+.login a:hover {
+    color: #5fafac;
+}
+
+.footer {
+    height: 200px;
+    padding-top: 30px;
+    background-color: #fff;
+}
+
+.links {
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.links dl {
+    float: left;
+    margin-right: 100px;
+}
+
+.links dt {
+    height: 35px;
+    font-size: 16px;
+    color: #333;
+}
+
+.links dd a {
+    font-size: 12px;
+    color: #333;
+}
+
+.links dd a:hover {
+    color: #5fafac;
+}
+
+.copyright {
+    margin: 10px auto;
+}
+
+.copyright p {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    margin: 20px 0 15px 0;
+}
+
+
+/* 导航栏 */
+
+.bottom-nav {
+    height: 56px;
+    background-color: #5fafac;
+    /* background: url(../img/nav1.jpg) repeat; */
+}
+
+.daohang {
+    margin-left: 30px;
+    background-color: #fff;
+}
+
+.daohang li {
+    margin-right: 20px;
+    float: left;
+    height: 56px;
+    padding: 0 25px;
+}
+
+.daohang li a {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    color: #000;
+    line-height: 56px;
+}
+
+.daohang li:hover {
+    background-color: #f5f5f5;
+}
+
+.daohang li i {
+    font-family: 'icomoon';
+    vertical-align: -3.5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: all 2s;
+}
+
+.drop {
+    color: #000;
+    font-size: 18px;
+    line-height: 56px;
+    transition: all 0.75s;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    border-radius: 0 0 5px 5px;
+    left: -25px;
+    width: 140px;
+    margin-top: -2px;
+    color: #000;
+    background-color: #5fafac;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.drop-content div {
+    color: #000;
+    text-align: center;
+    line-height: 56px;
+}
+
+.dropdown:hover .drop-content {
+    display: block;
+}
+
+.drop-content a {
+    transition: all 0.75s;
+}
+
+.drop-content a:hover {
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+.to_top {
+    position: fixed;
+    display: inline-block;
+    bottom: 30px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5fafac;
+    z-index: 888;
+}
+
+.to_top a {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.to_top p {
+    text-align: center;
+}
+
+.to_top i {
+    font-family: 'icomoon';
+    line-height: 50px;
+}

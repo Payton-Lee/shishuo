@@ -1,0 +1,91 @@
+.introduce {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.intro_nav {
+    position: relative;
+}
+
+.intro_nav img {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    width: 160px;
+    border: 2px solid #b1191a;
+}
+
+.intro_nav .intro_bottom,
+.intro_nav .intro_top {
+    overflow: hidden;
+    width: 100%;
+}
+
+.intro_nav .intro_top {
+    height: 100px;
+    background-color: #5fafac7e;
+    border-radius: 15px 15px 0 0;
+}
+
+.intro_nav .intro_bottom {
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+}
+
+.intro_nav .intro_top h3 {
+    height: 40px;
+    padding: 10px;
+    width: 830px;
+    float: right;
+    margin-top: 25px;
+    font-size: 22px;
+    line-height: 40px;
+    margin-right: 80px;
+}
+
+.intro_top h3 a {
+    display: inline-block;
+    padding: 0 10px;
+    height: 40px;
+    margin-left: 700px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: #5fafac;
+    border-radius: 5px;
+}
+
+.intro_nav .intro_bottom p {
+    height: 130px;
+    padding: 10px;
+    width: 830px;
+    float: right;
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 80px;
+}
+
+.content {
+    margin-top: 10px;
+    padding: 10px 80px 10px 80px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.content-hd {
+    height: 54px;
+    line-height: 54px;
+    font-size: 22px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-bd {
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.show li {
+    float: left;
+    width: 200px;
+    margin: 0 10px 10px 0;
+}
